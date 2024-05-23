@@ -1,28 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>HTML</title>
-  
-  <!-- HTML -->
-  
-
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Social Media</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
- <header>
-   <ul>
-     <li>HOME</li>
-     <li>CONTACT</li>
-   </ul>
- </header>
-  <p>Nothing to see here...</p>
-  <!-- Project -->
-  <script src="main.js"></script>
+    <div class="container">
+        <h1>Welcome to My Social Media</h1>
+        <div id="post-form">
+            <textarea id="post-content" placeholder="What's on your mind?"></textarea>
+            <button onclick="createPost()">Post</button>
+        </div>
+        <div id="posts"></div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
